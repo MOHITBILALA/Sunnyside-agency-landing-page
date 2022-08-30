@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-page{
+    
+    padding: 00px 40px 00px 40px;
+}
+
+header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+
+  
+    padding: 30px 20px 30px 20px ;
+    height: 100vh;
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 35%;
+}
+nav{
+    padding: 00px 50px 00px 50px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 00px 10px 00px 10px;
+}
+
+nav li a{
+    color: white;
+ 
+    text-decoration: none;
+
+}
+
+
+
+.nav{
+    color: black;
+
+    background-color: white;
+    padding: 13px 25px 13px 25px;
+    border-radius: 80px;
+}
+
+.nav:hover{
+background-color: rgb(120, 150, 143);
+}
+
+
+.text-info{
+    margin: auto;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.text-info h1{
+    color: white;
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-align: center;
+   align-items: center;
+   text-transform: uppercase;
+}
+
+
+.arrow-sec{
+    padding-top: 8%;
+}
+
+/* First page is comp0leted */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+ 
+}
+
+.cards{
+ 
+    padding: 00px 70px 250px 70px;
+ padding: 150px;
+    
+
+    
+}
+
+.cards h1{
+color: hsl(212deg 27% 19%);
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+.cards p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+.cards a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.two-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.texting{
+    text-align: center;
+    margin-top: -220px;
+    padding: 00px 15px 00px 15px;
+    
+}
+.texting h1{
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 1.4rem;
+}
+
+.texting p{
+    font-size: 1.3rem;
+}
+
+.texting h2{
+   color: black;
+   font-weight: bold;
+   font-size: 2rem;
+   padding-bottom: 1.4rem;
+}
+
+
+.testimonial-section{
+    margin: 10rem;
+  
+}
+
+.testimonial-section h1{
+    text-align: center;
+    font-size: 2.6rem;
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.clientcard{
+    padding: 50px 40px 50px 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+
+}
+
+.clientcard1 img{
+   width: 72px;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+padding-bottom: 0rem;
+border-radius: 50px;
+
+
+
+
+}
+
+.clientcard1 p{
+
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.directorfeild{
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* testimonial-section is over */
+
+.grid-section{
+    display: grid;
+    padding: 00px 20px 00px 20px ;
+    grid-template-columns: repeat(4,1fr);
+  margin-top: -11%;
+
+ 
+
+}
+
+.images-sec img{
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.sunnysideinfo{
+    background-color:hsl(168deg 44% 70%);
+    height: 40vh;
+    width: 100%;
+    padding: 00px 18px 00px 18px ;
+}
+
+
+.sunnysideinfo nav{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+    color: hsl(168deg 34% 41%);
+
+}
+
+
+.sunnysideinfo nav a{
+    text-decoration: none;
+    padding: 00px 20px 00px 20px;
+    color: hsl(168deg 34% 41%);
+    padding-top: 30px;
+}
+
+
+.social-media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+    text-decoration: none;
+  
+}
+
+
+.fa{
+    text-decoration: none;
+    padding: 50px 20px 00px 20px;
+    font-size: 20px;
+    color: hsl(168deg 34% 41%);
+    background-color: hsl(168deg 44% 70%);
+}
+.name1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+ 
+  width: 150px;
+
+  font-size: 1.9rem;
+  color: hsl(168deg 34% 41%);
+  font-weight: bold;
+
+}
+
+@media only screen and (max-width:25em){
+    header{
+        background-image: url(images/mobile/image-header.jpg)  no-repeat center bottom;;
+ 
+        background-size: cover;
+        width: fit-content;
+        width: 1450px;
+        height:600px;
+        padding-left: 10%;
+        padding: 50px 00px 00px 00px;
+        margin: 00px 00px 00px 00px;
+   
+    }
+    .testimonial-section h1{
+       margin: auto;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+      width: 1200px;
+       
+    }
+
+    .clientcard{
+        padding: 50px 00px 50px 00px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 100px;
+    
+    }
+
+    .clientcard1 p{
+        width: 300px
+    }
+
+    .grid-section{
+        display: grid;
+        padding: 00px 00px 00px 00px ;
+        grid-template-columns: repeat(2,1fr);
+      margin-top: -11%;
+    
+     
+    
+    }
+
+
+    .images-sec{
+        width:700px;
+    }
+
+
+    .sunnysideinfo{
+        background-color:hsl(168deg 44% 70%);
+        height: 80vh;
+        width: 1500px;
+        padding: 00px 18px 00px 18px ;
+    }
+    
+}
+
